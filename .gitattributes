@@ -1,0 +1,9 @@
+# Force GitHub to detect PHP correctly
+*.php linguist-language=PHP
+
+# Tell GitHub to ignore SQL files in language stats
+*.sql linguist-detectable=false
+
+# Force CSS/JS recognition
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
