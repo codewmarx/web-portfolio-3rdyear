@@ -4,7 +4,7 @@ This project was created as part of our **3rd Year – IT Elective 1 (Web System
 It is a simple **portfolio website** built using **HTML, CSS, JavaScript**, and basic integration with **PHP/MySQL** for dynamic features.
 
 ## 📦 Features
-- Static portfolio pages (Home, About, Projects, Contact)
+- Static portfolio pages (Home, About, Activities, Contact)
 - Responsive design using HTML & CSS
 - JavaScript for interactivity
 - PHP & MySQL for simple backend/database integration
