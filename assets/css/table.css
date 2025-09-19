@@ -1,0 +1,51 @@
+
+html,
+body,
+.intro {
+    height: 100%;
+}
+
+table td,
+table th {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+table th {
+    font-size: 14px;
+}
+
+table td {
+    font-size: 13px;
+}
+
+.card {
+    border-radius: .5rem;
+    margin-left: 2px;
+}
+
+.mask-custom {
+    background: rgba(24, 24, 16, .2);
+    border-radius: 2em;
+    backdrop-filter: blur(25px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background-clip: padding-box;
+    box-shadow: 5px 5px 5px rgba(46, 54, 68, 0.03);
+}
+
+.text1,
+.btn {
+    margin-left: 12px;
+}
+
+/* modal styles */
+.modal-content {
+    border-radius: 1rem;
+}
+
+/* @media (min-width:768px) {
+    .mask-custom {
+        width: 50%;
+        height: 50%;
+    }
+} */

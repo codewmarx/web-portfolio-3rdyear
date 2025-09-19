@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.logo {
+    width: 50px; /* Adjust size to fit the design */
+    height: 50px;
+    margin: 10px; /* Space between logos */
+    object-fit: contain; /* Ensure logos maintain aspect ratio */
+    border-radius: 50%; /* Optional: Makes the logo circular */
+    cursor: pointer;
+}
+
+.skills-logos {
+    display: flex;
+    flex-wrap: wrap; /* Wraps logos if the space is insufficient */
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.logo-title {
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 15px;
+    color: #edf0f1;
+    font-weight: 500;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: #24252A;
+}
+
+.nav-link {
+    list-style: none;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 0px 20px;
+    gap: 5px;
+}
+
+.nav-link li a {
+    transform: all 0.3s ease 0s;
+    background-color: #343a40;
+    color: #edf0f1;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.nav-link li a:hover {
+    color: #ffffff;
+    background-color: #006172;
+}
+
+/*dropdown menu*/
+.dropdown {
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    padding: 0px;
+    list-style: none;
+    min-width: 100%;
+    border-radius: 5px;
+}
+
+.menu li {
+    display: block;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px 20px;
+    color: #edf0f1;
+    background-color:  #343a40;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.menu li a:hover {
+    background-color:  #006172;
+}
+
+.dropdown:hover .menu {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+}
+
+/*Main Content Style*/
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 10%;
+    max-height: 100%;
+    background-color: #343a40;
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
+}
+
+footer {
+    background-color: #24252A;
+    padding: 10px 15px;
+}
+
+footer p {
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    justify-content: center;
+    display: flex;
+    font-weight: 500;
+}
+
+span {
+    background-color: #006f88;
+    margin-left: 5px;
+    border-radius: 7px;
+    padding: 0px 7px;
+}
+
+.info span {
+    background-color: #006f88;
+    border-radius: 7px;
+    padding: 15px 25px;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.info p {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.profile-picture img{
+    padding-bottom: 20px;
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    max-width: 100%;
+}
